@@ -1,5 +1,5 @@
 # RFID Weigand Converter
-This little firmware sits on a microcontroller between a weigand compatible RFID reader. It allows you to get the tag ID and control the LED/buzzer via a simple serial protocol.
+This little firmware sits on a microcontroller between a weigand compatible RFID reader. It allows you to get the tag ID and control the LED/buzzer via a simple serial protocol. This is designed to work with HSBNE's suite of access control software and hardware. See our [GitHub](https://github.com/hsbne) for more information and resources.
 
 # Usage
 Flash onto any arduino or compatible board and hook up wires as defined in the arduino code. Everytime a weigand message is received, it converts it to text and sends it over the serial connection. (9600 baud)
